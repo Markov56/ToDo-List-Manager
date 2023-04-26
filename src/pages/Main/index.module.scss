@@ -1,0 +1,38 @@
+.wrapper {
+  max-width: 730px;
+  padding: 0 15px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.top {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: white;
+}
+
+.heading {
+  font-size: 42px;
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+
+.toggle {
+  margin-top: 12px;
+  padding-bottom: 8px;
+  display: flex;
+  gap: 8px;
+  font-size: 18px;
+}
+
+.tasksList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.placeholder {
+  font-size: 30px;
+}
